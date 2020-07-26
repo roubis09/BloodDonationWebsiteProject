@@ -1,0 +1,29 @@
+nav{
+  width: 105%;
+  height: 50px;
+  margin-left: -20px;
+  background-color: rgba(106,90,205,0.3);
+  z-index: 1;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+}
+ul li{
+  padding: 20px;
+  font-size: 20px;
+}
+ul li a{
+  color: DarkMagenta;
+}
+
+.navbar .fa-bars{
+	font-size: 35px;
+	color: white;
+	background: white;
+}
+.navbar-toggler{
+	outline: none ! important;
+	float: left;
+}

@@ -1,0 +1,51 @@
+body{
+  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)),url('Images/inwallpaper.jpg');
+  background-position: center;
+	background-size: cover;
+	background-repeat: none;
+	background-attachment: fixed;
+}
+body:after {
+  content: url(../img/close.png) url(../img/loading.gif) url(../img/prev.png) url(../img/next.png);
+  display: none;
+}
+.header{
+  width: 103%;
+  margin-left: -15px;
+}
+.logo{
+  background-color: Crimson;
+  height: 50px;
+  margin-top: -25px;
+  padding-left: 80px;
+}
+.logo h1{
+  color: white;
+  padding-left: 230px;
+  margin: 20px;
+}
+.logo img{
+  height: 50px;
+}
+#need img{
+  height: 200px;
+}
+
+@media (max-width: 1000px){
+
+  .header{
+    width: 107.5%;
+    letter-spacing: 0px;
+    /*margin-left: -25px;*/
+  }
+  .logo{
+      position: center;
+      margin-left: 0px;
+      padding-left: 70px;
+      letter-spacing: 0px;
+  }
+  .logo h1{
+      padding: 0px;
+      letter-spacing: 0px;
+  }
+}

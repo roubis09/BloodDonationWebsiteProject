@@ -1,0 +1,13 @@
+.logo{
+  background-color: Crimson;
+  height: 50px;
+  margin-top: -25px;
+}
+.logo h1{
+  color: white;
+  padding-left: 200px;
+  margin: 20px;
+}
+.logo img{
+  height: 50px;
+}
